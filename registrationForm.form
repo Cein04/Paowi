@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="registrationForm">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="14" column-count="24" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1168" height="572"/>
+    </constraints>
+    <properties>
+      <background color="-13744949"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="27de4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="24" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+          <font name="Consolas" size="28" style="0"/>
+          <foreground color="-9181825"/>
+          <text value="Car Rental Management"/>
+        </properties>
+      </component>
+      <component id="1bc2c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="24" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Car to Register"/>
+        </properties>
+      </component>
+      <component id="2549a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="22" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Personal Information"/>
+        </properties>
+      </component>
+      <component id="b6385" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Contact Number:"/>
+        </properties>
+      </component>
+      <component id="d7852" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Full Name:"/>
+        </properties>
+      </component>
+      <component id="4e01a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Car Available:"/>
+        </properties>
+      </component>
+      <component id="5587f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Email Account:"/>
+        </properties>
+      </component>
+      <component id="c75bc" class="javax.swing.JTextField" binding="eacc">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+        </properties>
+      </component>
+      <component id="a0a54" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Age:"/>
+        </properties>
+      </component>
+      <component id="510d6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Duration:"/>
+        </properties>
+      </component>
+      <component id="587be" class="javax.swing.JTextField" binding="carPrice">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+          <foreground color="-15047930"/>
+        </properties>
+      </component>
+      <component id="22c78" class="javax.swing.JTextField" binding="numDay">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="66343" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16266727"/>
+          <text value="Are You A Member?"/>
+        </properties>
+      </component>
+      <component id="32f0d" class="javax.swing.JCheckBox" binding="yesCheckBox" default-binding="true">
+        <constraints>
+          <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+          <foreground color="-13744949"/>
+          <text value="Yes"/>
+        </properties>
+      </component>
+      <component id="6f863" class="javax.swing.JCheckBox" binding="noCheckBox" default-binding="true">
+        <constraints>
+          <grid row="11" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+          <foreground color="-15762216"/>
+          <text value="No"/>
+        </properties>
+      </component>
+      <component id="7297a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16266727"/>
+          <text value="Membership Discount 20%"/>
+        </properties>
+      </component>
+      <component id="8cd81" class="javax.swing.JTextField" binding="age">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+        </properties>
+      </component>
+      <component id="9011f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Sex:"/>
+        </properties>
+      </component>
+      <component id="2fdce" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="15" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16699390"/>
+          <foreground color="-16266727"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="bb750" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15342276"/>
+          <text value="Honda-P3,500K"/>
+        </properties>
+      </component>
+      <component id="aab3e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15342276"/>
+          <text value="Tesla-P1,000K"/>
+        </properties>
+      </component>
+      <component id="b1c81" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15342276"/>
+          <text value="Toyota-P5,000k"/>
+        </properties>
+      </component>
+      <component id="481ad" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15342276"/>
+          <text value="BMW-P9,000K"/>
+        </properties>
+      </component>
+      <component id="ca207" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15342276"/>
+          <text value="Porsche-P30,000K"/>
+        </properties>
+      </component>
+      <component id="9e537" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15342276"/>
+          <text value="Mercedes-P38,500K"/>
+        </properties>
+      </component>
+      <component id="252c7" class="javax.swing.JTextField" binding="num">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+        </properties>
+      </component>
+      <component id="9aa92" class="javax.swing.JTextField" binding="sex">
+        <constraints>
+          <grid row="4" column="15" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+        </properties>
+      </component>
+      <component id="5a33" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Rental Pricing Pesos/Day"/>
+        </properties>
+      </component>
+      <component id="b1099" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Price of the Car:"/>
+        </properties>
+      </component>
+      <component id="39c10" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9181825"/>
+          <text value="Number of Days:"/>
+        </properties>
+      </component>
+      <component id="55efb" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+        </properties>
+      </component>
+      <component id="d4fd3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16699390"/>
+          <text value="Total Price"/>
+        </properties>
+      </component>
+      <component id="23959" class="javax.swing.JLabel" binding="tPrice">
+        <constraints>
+          <grid row="8" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6d052" class="javax.swing.JComboBox" binding="Cars">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="17" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9181825"/>
+          <foreground color="-16699390"/>
+          <model>
+            <item value=""/>
+            <item value="Tesla"/>
+            <item value="Honda"/>
+            <item value="Toyota"/>
+            <item value="BMW"/>
+            <item value="Porsche"/>
+            <item value="Mercedes"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
